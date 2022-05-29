@@ -1,7 +1,89 @@
 body {  
-    padding: 30px;
     text-align: center;
-    background: #80d4ff;
-    ;color: white; text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: 45px;
+    font-family: "fantasy";
+    background: #8080ff;color: white; text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 30px;
+       }
+
+#fixed {
+        text-align: center;
+        background-image:
+url("https://gyazo.com/9afa0ba0d715011217b2a745483ad856");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+    }
+    .content-box-silver .content {
+        position:fixed; bottom:0;
+        float: left;
+        overflow: hidden;
+        padding-left: 12%;
+        padding-bottom: 2%;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        display: block;
+    }
+    .content-box-silver .title {
+        float: left;
+        max-height:1600px;
+        width: 600px;
+        line-height:300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background:silver;
+        font-size:24px;
+        font-weight:bold;
+        font-family:verdana;
+        display:block;
+        color:white; text-shadow: black 0.1em 0.1em 0.2em;
+        display:block;
+        padding:10px;
+        border: 1px solid silver;
+        border-bottom:none;
+    }
+
+    .content-box-silver-right .content-two {
+        position:fixed; bottom:0;
+        overflow: hidden;
+        padding-left: 78%;
+        padding-bottom: 2%;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        display: flex;
+    }
+    .content-box-silver-right .title-two {
+        float: right;
+        max-height:1600px;
+        width: 600px;
+        line-height:300px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background:silver;
+        font-size:24px;
+        font-weight:bold;
+        font-family:verdana;
+        display:block;
+        color:white; text-shadow: black 0.1em 0.1em 0.2em;
+        padding:10px;
+        border: 1px solid silver;
+        border-bottom:none;
+    }
+
+    .content-box-bio .aboutme {
+        max-height:80px;
+        line-height:30px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        background:silver;
+        font-size:24px;
+        font-weight:bold;
+        font-family:verdana;
+        display:flex;
+        color:white; text-shadow: black 0.1em 0.1em 0.2em;
+        display:block;
+        padding:10px;
+        border: 1px solid silver;
+        border-bottom:none;
     }
